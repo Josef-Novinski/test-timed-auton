@@ -63,6 +63,18 @@ public class Robot extends TimedRobot {
       m_autonomousCommand.schedule();
     }
   }
+  /*
+  int age = 15;
+  final int minimum_drive_age = 16;
+
+  if (age >= minimum_drive_age) {
+    println("You can drive");
+  }
+
+  if (age != minimum_drive_age) {
+    println("You are not 16");
+  }
+   */
 
   /** This function is called periodically during autonomous. */
   @Override
